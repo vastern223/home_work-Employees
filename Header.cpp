@@ -116,6 +116,7 @@ void add_an_employee()
 		SIZE++;
 		delete[] employees;
 		employees = newEmployees;
+		cout << "new employee added" << endl;
 	}
 	else
 	{
@@ -162,6 +163,7 @@ void editing_an_employee()
 					employees[i].Name = name;
 				}
 			}
+		
 			break;
 		}
 		case 2:
@@ -177,6 +179,7 @@ void editing_an_employee()
 					employees[i].Surname = surname;
 				}
 			}
+			
 			break;
 		}
 		case 3:
@@ -192,6 +195,7 @@ void editing_an_employee()
 					employees[i].Age = age;
 				}
 			}
+			
 			break;
 		}
 		case 4:
@@ -210,7 +214,9 @@ void editing_an_employee()
 					fout << employees[i].Name << endl;
 					fout << employees[i].Age << endl;
 				}
+				cout << "written to a file" << endl;
 			}
+			
 			fout.close();	
 		}
 		break;
@@ -275,6 +281,7 @@ void removal_of_employee()
 		employees = deleteEmployees;
 		fout.close();
 	}
+	cout << " employe  delete " << endl;
 	PAUSE
 	CLEAR
 }
