@@ -1,0 +1,4 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(459,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (робота з файлами 222.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  Source.cpp
+C:\Users\Kolotyuk\source\repos\робота з файлами 222\робота з файлами 222\Source.cpp(8,1): warning C4326: возвращаемый тип "main" должен быть "int", а не "void"
+  робота з файлами 222.vcxproj -> C:\Users\Kolotyuk\source\repos\робота з файлами 222\Debug\домашка.exe
